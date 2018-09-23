@@ -8,6 +8,14 @@
     margin: 0 auto;
 }
 
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
 /* Header */
 
 .header {
@@ -20,14 +28,6 @@
     font-size: 18pt;
     text-decoration: none;
     padding: 0 4.5% 0 4.5%;
-}
-
-.header .float-left {
-    float: left;
-}
-
-.header .float-right {
-    float: right;
 }
 
 /* Content */
@@ -71,12 +71,11 @@
 .footer .logo {
     margin: 3% 0 0 5%; 
     float: left;
-    width: 197px;
+    width: 155px;
 }
 
-.footer p {
-    text-align: center;
-    width: 25%;
+.footer .copy {
+    text-align: right;
     margin: auto;
-    padding-top: 115px;
+    padding: 8% 4%
 }
